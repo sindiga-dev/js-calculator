@@ -6,20 +6,25 @@
 <style type="text/css">
 body {margin: 30px;}
 </style> 
+<link rel="stylesheet" href="./index.css">
 </head>
 <body>
-<form>
-    1st Number : <input type="text" id="firstNumber" /><br>
-    2nd Number: <input type="text" id="secondNumber" /><br>
-<input type="button" onClick="multiplyBy()" Value="Multiply" />
-<input type="button" onClick="divideBy()" Value="Divide" />
-<input type="button" onclick="addition()"Value="add"/>
-<input type="button" onclick="subtract()" value="subtract"/>
-<input type="button" onclick="percentage()" value="percentage">
-</form>
-<p>The Result is : <br>
-<span id = "result"></span>
-</p>
+    <div>
+
+        <form>
+            1st Number : <input type="text" id="firstNumber" /><br>
+            2nd Number: <input type="text" id="secondNumber" /><br>
+        <input type="button" onClick="multiplyBy()" Value="Multiply" />
+        <input type="button" onClick="divideBy()" Value="Divide" />
+        <input type="button" onclick="addition()"Value="add"/>
+        <input type="button" onclick="subtract()" value="subtract"/>
+        <input type="button" onclick="percentage()" value="percentage">
+        <input type="button" onclick="modulus()" value="Remainder">
+        </form>
+        <p>The Result is : <br>
+        <span id = "result"></span>
+        </p>
+</div>
 <script src="./index.js"></script>
 </body>
 </html>

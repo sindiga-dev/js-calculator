@@ -1,0 +1,10 @@
+*{
+    background-color: black;
+    color: white;
+}
+div{
+    justify-content: center;
+    margin-left:30% ;
+    border: 5px white ;
+    border-top: 20%;
+}

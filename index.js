@@ -9,12 +9,12 @@ function divideBy()
 { 
         num1 = document.getElementById("firstNumber").value;
         num2 = document.getElementById("secondNumber").value;
-document.getElementById("result").innerHTML = num1 / num2;
+        document.getElementById("result").innerHTML = num1 / num2;
 }
 function addition(){
-    num1=document.getElementById("firstNumber").value;
-    num2=document.getElementById("secondNumber").value;
-    document.getElementById("result").innerHTML=num1+num2;
+        num1=document.getElementById("firstNumber").value;
+        num2=document.getElementById("secondNumber").value;
+        document.getElementById("result").innerHTML=num1+num2;
 }
 function subtract(){
     num1=document.getElementById("firstNumber").value;
@@ -25,4 +25,9 @@ function percentage(){
     num1=document.getElementById("firstNumber").value;
     num2=document.getElementById("secondNumber").value;
     document.getElementById("result").innerHTML=(num1/num2)*100;
+}
+function modulus(){
+    num1=document.getElementsById("firstNumber").value;
+    num2=document.getElementById("secondNumber").value;
+    document.getElementById("result").innerHTML=num1%num2
 }
